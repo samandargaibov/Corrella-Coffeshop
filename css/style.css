@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 60px;
+}
+.logo{
+    width: 8%;
+}
+.logo a img{
+    width: 100%;
+}
+header nav{
+    position: relative;
+    font-size: 16px;
+}
+.header nav a{
+    color: #e5e6e6;
+    margin: 0 23px;
+}
+.header nav{
+    color: #e5e6e6;
+    padding-top: 14px;
+}
+.header nav i{
+    margin-left: 25px;
+    cursor: pointer;
+}
+.home{
+    position: relative;
+}
+.home::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -9px;
+    left: 0;
+    background-color: #dadbdb;
+}
+.fa-solid{
+    position: relative;
+}
+.number{
+    position: absolute;
+    font-size: 11px;
+    top: -10px;
+}
+.home_a{
+    position: relative;
+}
+.home_a::before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -9px;
+    left: 0;
+    background-color: #dadbdb;
+    transition: .5s;
+}
+.home_a:hover::before{
+    width: 100%;
+}
+.background{
+    height: 100vh;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/home-1-slider-image-1.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.retrobar_all{
+    max-width: 1140px;
+    width: 50%;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    float: right;
+    margin-right: 6rem;
+    position: relative;
+}
+.retrobar_logo{
+    margin-bottom: 25px;
+}
+.retrobar_name h1{
+    font-size: 6rem;
+    margin-bottom: 15px;
+}
+.retrobar_all .divider{
+    margin-bottom: 30px;
+}
+.retrobar_text{
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 70px;
+    color: #c9c6c6;
+    width: 80%;
+}
+.retrobar_button a{
+    padding: 25px 60px;
+    border: 1px solid #fff;
+    font-size: 15px;
+    color: #fff;
+    transition: 1s;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.retrobar_button a:hover{
+    background-color: #face70;
+    border-color: #f5dba0;
+    color: #e7e4e4;
+}
+.right-side{
+    height: 220px;
+}
+.arrow-left{
+    position: absolute;
+    top: 50%;
+    left: 45px;
+    font-size: 50px;
+    color: #ececec;
+    cursor: pointer;
+    transition: 1s;
+}
+.arrow-right{
+    position: absolute;
+    top: 50%;
+    right: 45px;
+    font-size: 50px;
+    color: #ececec;
+    cursor: pointer;
+    transition: 1s;
+}
+.arrow-left:hover{
+    color: #f5dba0;
+}
+.arrow-right:hover{
+    color: #f5dba0;
+}
+.trolley{
+    position: absolute;
+    position: fixed;
+    top: 51%;
+    right: 0;
+    font-size: 15px;
+    background-color: #fff;
+    padding: 12px;
+    color: rgb(240, 6, 95);
+    cursor: pointer;
+}
+.circle{
+    position: absolute;
+    position: fixed;
+    top: 46%;
+    right: 0;
+    font-size: 15px;
+    background-color: rgb(240, 6, 95);
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.second_index{
+    height: 50vh;
+}
+.top-header{
+    width: 31%;
+    margin: auto;
+    text-align: center;
+    padding-top: 120px;
+}
+.top-header h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: rgb(29, 29, 29);
+}
+.top-header img{
+    margin-bottom: 20px;
+}
+.top-header p{
+    font-size: 20px;
+    color: #686767;
+    margin-bottom: 50px;
+}
+.bottom{
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom .box{
+    padding: 55px 20px;
+    width: 23%;
+    text-align: center;
+}
+.box .images{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.box .images-text h1{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #333232;
+}
+.box .images-text p{
+    color: #6e6b6b;
+}
