@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+*::selection{
+    color: #fff;
+    background-color: #ad9356;
+}
 a{
     text-decoration: none;
     color: black;
@@ -92,6 +96,7 @@ header nav{
     float: right;
     margin-right: 6rem;
     position: relative;
+    user-select: none;
 }
 .retrobar_logo{
     margin-bottom: 25px;
@@ -120,8 +125,8 @@ header nav{
     font-family: Arial, Helvetica, sans-serif;
 }
 .retrobar_button a:hover{
-    background-color: #face70;
-    border-color: #f5dba0;
+    background-color: #ad9356;
+    border-color: #ad9356;
     color: #e7e4e4;
 }
 .right-side{
@@ -146,10 +151,10 @@ header nav{
     transition: 1s;
 }
 .arrow-left:hover{
-    color: #f5dba0;
+    color: #ad9356;
 }
 .arrow-right:hover{
-    color: #f5dba0;
+    color: #ad9356;
 }
 .trolley{
     position: absolute;
@@ -173,8 +178,8 @@ header nav{
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
-.second_index{
-    height: 100vh;
+.second_index .top{
+    margin-bottom: 55px;
 }
 .top-header{
     width: 31%;
@@ -214,7 +219,111 @@ header nav{
     margin-bottom: 20px;
     font-size: 20px;
     color: #333232;
+    cursor: pointer;
+    transition: .3s;
+}
+.box .images-text h1:hover{
+    color: #ad9356;
 }
 .box .images-text p{
     color: #6e6b6b;
+}
+.third_index{
+    height: 100vh;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.third_top{
+    width: 100%;
+    text-align: center;
+    padding-top: 120px;
+}
+.third_top h1{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.third_top img{
+    margin-bottom: 20px;
+}
+.third_top p{
+    margin-bottom: 25px;
+    width: 33%;
+    margin: auto;
+    font-size: 20px;
+    color: rgb(112, 112, 112);
+    padding-bottom: 4rem;
+}
+.third_top p::selection{
+    color: #fff;
+    background-color: #ad9356;
+}
+.third_bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    margin: auto;
+}
+.third_bottom .third_box{
+    width: 32%;
+    margin: auto;
+    height: 600px;
+    
+}
+.bottom_img img{
+    width: 100%;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.third_bottom .bottom_text a h5{
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: #464542;
+    font-weight: 100;
+    cursor: pointer;
+    transition: .5s;
+}
+.third_bottom .bottom_text a h5:hover{
+    color: #ad9356;
+}
+.third_bottom .third_box .bottom_text p{
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: #878070;
+}
+.third_bottom .third_box .bottom_text p::selection{
+    color: #fff;
+    background-color: #ad9356;
+}
+.third_bottom .third_box .bottom_text span{
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+.third_bottom .third_box .bottom_text{
+    position: relative;
+}
+.third_bottom .third_box .bottom_text .span{
+    position: absolute;
+    padding-left: 25px;
+    cursor: pointer;
+    transition: padding .5s;
+}
+.third_bottom .third_box .bottom_text .span:hover{
+    color: #ad9356;
+    padding-left: 35px;
+}
+.span::before{
+    content: '';
+    width: 10px;
+    position: absolute;
+    border: 1px solid rgb(61, 61, 61);
+    bottom: 50%;
+    left: 0;
+    transition: .5s;
+    background-color: currentColor;
+}
+.span:hover::before{
+    color: #eca601;
+    padding-left: 7px;
 }
