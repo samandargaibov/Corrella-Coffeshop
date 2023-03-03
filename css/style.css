@@ -102,7 +102,7 @@ header nav{
     margin-bottom: 25px;
 }
 .retrobar_name h1{
-    font-size: 6rem;
+    font-size: 5rem;
     margin-bottom: 15px;
 }
 .retrobar_all .divider{
@@ -188,7 +188,7 @@ header nav{
     padding-top: 120px;
 }
 .top-header h1{
-    font-size: 45px;
+    font-size: 40px;
     margin-bottom: 20px;
     color: rgb(29, 29, 29);
 }
@@ -196,7 +196,7 @@ header nav{
     margin-bottom: 20px;
 }
 .top-header p{
-    font-size: 20px;
+    font-size: 17px;
     color: #686767;
     margin-bottom: 50px;
 }
@@ -229,7 +229,6 @@ header nav{
     color: #6e6b6b;
 }
 .third_index{
-    height: 100vh;
     background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
     background-position: center;
     background-size: cover;
