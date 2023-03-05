@@ -67,6 +67,39 @@
         .sixth_top img{
             margin-bottom: 25px;
         }
+        .sixth_bottom .sixth_images{
+            position: relative;
+        }
+        .sixth_bottom .sixth_images img:hover{
+            opacity: 0.2;
+            z-index: -5;
+        }
+        .sixth_images:hover .add_button{
+            opacity: 1;
+        }
+        .sixth_bottom .add_button{
+            position: absolute;
+            cursor: pointer;
+            top: 50%;
+            left: 50%;
+            width: 60%;
+            padding: 20px 20px;
+            background-color: #ad9356;
+            color: #fff;
+            opacity: 0;
+            font-size: 20px;
+            transform: translate(-50%,-50%);
+            transition: .5s;
+        }
+        .sixth_bottom .add_button a{
+            z-index: 1;
+            color: #fff;
+            transition: .5s;
+        }
+        .sixth_bottom .add_button:hover{
+            background-color: rgb(34, 34, 34);
+            color: #fff;
+        }
         .sixth_top p{
             width: 42%;
             margin: auto;
@@ -74,29 +107,35 @@
             color: rgb(66, 66, 66);
         }
         .sixth_bottom{
-            width: 85%;
+            width: 75%;
             margin: auto;
             display: flex;
             justify-content: space-between;
             padding-top: 6rem;
         }
         .sixth_box{
-            width: 21%;
+            width: 23%;
             text-align: center;
-            
         }
         .sixth_box img{
             width: 100%;
-            cursor: pointer;
         }
         .sixth_bottom_text h3{
             font-weight: 100;
             margin-bottom: 10px;
+            transition: .5s;
+            font-size: 21px;
+            margin-top: 15px;
+        }
+        .sixth_bottom_text h3:hover{
+            cursor: pointer;
+            color: #ad9356;
         }
         .sixth_bottom_text span{
             font-weight: 100;
             color: #64532a;
         }
+        
     </style>
 </head>
 <body>
@@ -284,28 +323,48 @@
         </div>
         <div class="sixth_bottom">
             <div class="sixth_box">
-                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/product-img-1.png" alt="">
+                <div class="sixth_images">
+                    <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/product-img-1.png" alt="">
+                    <div class="add_button">
+                        <a href="">Add to cart</a>
+                    </div>
+                </div>
                 <div class="sixth_bottom_text">
                     <h3>ETHIOPIA COFFEE</h3>
                     <span>$ 15.00</span>
                 </div>
             </div>
             <div class="sixth_box">
-                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/product-img-3.png" alt="">
+                <div class="sixth_images">
+                    <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/product-img-3.png" alt="">
+                    <div class="add_button">
+                        <a href="">Add to cart</a>
+                    </div>
+                </div>
                 <div class="sixth_bottom_text">
                     <h3>KENYA COFFEE</h3>
                     <span>$ 18.00</span>
                 </div>
             </div>
             <div class="sixth_box">
-                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/product-img-5.png" alt="">
+                <div class="sixth_images">
+                    <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/product-img-5.png" alt="">
+                    <div class="add_button">
+                        <a href="">Add to cart</a>
+                    </div>
+                </div>
                 <div class="sixth_bottom_text">
                     <h3>COLUMBIA COFFEE</h3>
                     <span>$ 21.00</span>
                 </div>
             </div>
             <div class="sixth_box">
-                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/product-img-8.png" alt="">
+                <div class="sixth_images">
+                    <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/product-img-8.png" alt="">
+                    <div class="add_button">
+                        <a href="">Add to cart</a>
+                    </div>
+                </div>
                 <div class="sixth_bottom_text">
                     <h3>GUATEMALA COFFEE</h3>
                     <span>$ 25.00</span>
