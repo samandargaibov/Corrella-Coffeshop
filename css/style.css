@@ -390,7 +390,6 @@ header nav{
 }
 .sixth_bottom .sixth_images img:hover{
     opacity: 0.2;
-    z-index: -5;
 }
 .sixth_images:hover .add_button{
     opacity: 1;
