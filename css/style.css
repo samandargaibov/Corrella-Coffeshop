@@ -388,6 +388,9 @@ header nav{
 .sixth_bottom .sixth_images{
     position: relative;
 }
+.sixth_bottom .sixth_images img{
+    transition: .7s;
+}
 .sixth_bottom .sixth_images img:hover{
     opacity: 0.2;
 }
@@ -436,6 +439,7 @@ header nav{
 }
 .sixth_box img{
     width: 100%;
+    cursor: pointer;
 }
 .sixth_bottom_text h3{
     font-weight: 100;
