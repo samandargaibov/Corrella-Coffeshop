@@ -166,6 +166,7 @@ header nav{
     padding: 12px;
     color: rgb(240, 6, 95);
     cursor: pointer;
+    z-index: 10;
 }
 .circle{
     position: absolute;
@@ -177,6 +178,7 @@ header nav{
     padding: 12px;
     color: rgb(255, 255, 255);
     cursor: pointer;
+    z-index: 10;
 }
 .second_index .top{
     margin-bottom: 55px;
