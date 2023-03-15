@@ -8,134 +8,80 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/css/style.css">
     <style>
-        .fourth_index{
-            background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-2.jpg);
-            background-position: 50% 0px;
-            height: 50vh;
-            display: flex;
-            margin-top: 4rem;
-            align-items: center;
-        }
-        .fourth_index .fourth_img{
-            width: 100%;
+        .seventh-top{
             text-align: center;
+            padding: 6rem 0;
         }
-        .fifth_index{
-            width: 1300px;
-            padding-bottom: 6rem;
-            padding-top: 6rem;
-            display: flex;
-            justify-content: space-between;
+        .seventh-top h2{
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+        .seventh-top img{
+            margin-bottom: 20px;
+        }
+        .seventh-top p{
+            font-size: 20px;
+            width: 30%;
             margin: auto;
         }
-        .fifth_box{
-            width: 25%;
-            text-align: center;
+        .seventh-bottom{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
         }
-        .fifth_box span{
-            margin-bottom: 20px;
-            font-size: 60px;
-            color: #ad9356;
+        .seventh-bottom .box1{
+            width: 24%;
         }
-        .fifth_box p{
-            font-size: 17px;
-            color: #64532a;
-        }
-        .fifth_box h3{
-            font-weight: 100;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            color: rgb(46, 46, 46);
-        }
-        .sixth_index{
-            background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-1.jpg);
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            height: 100vh;
-        }
-        .sixth_top{
-            max-width: 100%;
-            text-align: center;
-            padding-top: 7rem;
-        }
-        .sixth_top h2{
-            font-weight: 100;
-            font-size: 50px;
-            margin-bottom: 20px;
-        }
-        .sixth_top img{
-            margin-bottom: 25px;
-        }
-        .sixth_bottom .sixth_images{
-            position: relative;
-        }
-        .sixth_bottom .sixth_images img:hover{
-            opacity: 0.2;
-            z-index: -5;
-        }
-        .sixth_images:hover .add_button{
-            opacity: 1;
-        }
-        .sixth_bottom .add_button{
-            position: absolute;
+        .seventh-bottom img{
+            width: 100%;
             cursor: pointer;
-            top: 50%;
-            left: 50%;
-            width: 60%;
-            padding: 20px 20px;
-            background-color: #ad9356;
-            color: #fff;
-            opacity: 0;
-            font-size: 20px;
-            transform: translate(-50%,-50%);
-            transition: .5s;
         }
-        .sixth_bottom .add_button a{
+        .img-text{
+            position: absolute;
+            top: 38%;
+            right: 52%;
+            transform: translate(50%,50%);
             z-index: 1;
             color: #fff;
-            transition: .5s;
+            text-align: center;
+            opacity: 0;
+            transition: .4s;
+            cursor: pointer;
         }
-        .sixth_bottom .add_button:hover{
-            background-color: rgb(34, 34, 34);
-            color: #fff;
+        .box1:hover .img-text{
+            opacity: 1;
         }
-        .sixth_top p{
-            width: 42%;
-            margin: auto;
-            font-size: 19px;
-            color: rgb(66, 66, 66);
+        .box1:hover img{
+            opacity: .8;
         }
-        .sixth_bottom{
-            width: 75%;
-            margin: auto;
+        .img-text h3{
+            margin-bottom: 12px;
+            font-size: 24px;
+        }
+        .img-text p{
+            font-size: 15px;
+        }
+        .img-text p:hover{
+            color: rgb(255, 166, 0);
+        }
+        .box1{
+            position: relative;
+        }
+        .eight_index{
+            padding: 5rem 0;
+        }
+        .eight_index .partners{
             display: flex;
             justify-content: space-between;
-            padding-top: 6rem;
         }
-        .sixth_box{
-            width: 23%;
-            text-align: center;
-        }
-        .sixth_box img{
+        .eight_index .logos img{
             width: 100%;
-        }
-        .sixth_bottom_text h3{
-            font-weight: 100;
-            margin-bottom: 10px;
-            transition: .5s;
-            font-size: 21px;
-            margin-top: 15px;
-        }
-        .sixth_bottom_text h3:hover{
             cursor: pointer;
-            color: #ad9356;
         }
-        .sixth_bottom_text span{
-            font-weight: 100;
-            color: #64532a;
+        .eight_index .logos img:hover{
+            opacity: .8;
         }
-        
     </style>
 </head>
 <body>
@@ -369,6 +315,93 @@
                     <h3>GUATEMALA COFFEE</h3>
                     <span>$ 25.00</span>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="seventh_index">
+        <div class="seventh-top">
+            <h2>OUR SWEET GALLERY</h2>
+            <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/title-separator.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+        </div>
+        <div class="seventh-bottom">
+            <div class="box1">
+                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/port-1-img-1.jpg" alt="">
+                <div class="img-text">
+                    <h3>PERFECT CUP</h3>
+                    <p>Cup of Coffee / Filtered</p>
+                </div>
+            </div>
+            <div class="box1">
+                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/port-1-img-2.jpg" alt="">
+                <div class="img-text">
+                    <h3>BREWED</h3>
+                    <p>Cup of Coffee / Filtered</p>
+                </div>
+            </div>
+            <div class="box1">
+                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/port-1-img-3.jpg" alt="">
+                <div class="img-text">
+                    <h3>COFFEE DRIPS</h3>
+                    <p>Cup of Coffee / Filtered</p>
+                </div>
+            </div>
+            <div class="box1">
+                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/port-1-img-7.jpg" alt="">
+                <div class="img-text">
+                    <h3>BAKED BEANS</h3>
+                    <p>Cup of Coffee / Filtered</p>
+                </div>
+            </div>
+            <div class="box1">
+                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/port-1-img-5.jpg" alt="">
+                <div class="img-text">
+                    <h3>BEST AROMAS</h3>
+                    <p>Cup of Coffee / Filtered</p>
+                </div>
+            </div>
+            <div class="box1">
+                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/port-1-img-6.jpg" alt="">
+                <div class="img-text">
+                    <h3>CREAMS</h3>
+                    <p>Cup of Coffee / Filtered</p>
+                </div>
+            </div>
+            <div class="box1">
+                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/port-1-img-4.jpg" alt="">
+                <div class="img-text">
+                    <h3>ENJOYMENT</h3>
+                    <p>Cup of Coffee / Filtered</p>
+                </div>
+            </div>
+            <div class="box1">
+                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/port-1-img-8.jpg" alt="">
+                <div class="img-text">
+                    <h3>BIG MUGS</h3>
+                    <p>Cup of Coffee / Filtered</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="eight_index">
+        <div class="partners">
+            <div class="logos">
+                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/clients-img-3.png" alt="">
+            </div>
+            <div class="logos">
+                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/clients-img-4.png" alt="">
+            </div>
+            <div class="logos">
+                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/clients-img-5.png" alt="">
+            </div>
+            <div class="logos">
+                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/clients-img-6.png" alt="">
+            </div>
+            <div class="logos">
+                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/clients-img-1-1.png" alt="">
+            </div>
+            <div class="logos">
+                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/clients-img-2.png" alt="">
             </div>
         </div>
     </section>
