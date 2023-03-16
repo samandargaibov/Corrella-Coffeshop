@@ -564,3 +564,89 @@ header nav{
 .nineth-background h3{
     color: rgb(83, 83, 83);
 }
+.tenth-background{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/footer-top-img-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tenth-text{
+    text-align: center;
+    color: #ebeaea;
+}
+.tenth-text img{
+    padding-top: 5rem;
+    margin-bottom: 20px;
+}
+.tenth-text .tenth-logo p{
+    width: 30%;
+    margin: auto;
+    margin-bottom: 4rem;
+    font-size: 18px;
+}
+.tenth-middle{
+    margin-top: 20px;
+    font-size: 19px;
+}
+.tenth-middle h3{
+    margin-bottom: 20px;
+    font-weight: 200;
+    font-size: 23px;
+}
+.tenth-middle-p{
+    margin-bottom: 45px;
+    
+}
+.tenth-bottom{
+    padding-bottom: 6rem;
+}
+.tenth-bottom h3{
+    font-weight: 200;
+    font-size: 21px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.tenth-bottom input{
+    background-color: transparent;
+    border: 1px solid #fff;
+    width: 380px;
+    height: 50px;
+    padding: 1.8rem;
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+}
+footer{
+    padding: 4rem;
+    background-color: #121212;
+    color: #fff;
+}
+footer nav a{
+    margin-left: 30px;
+    color: #fff;
+    transition: .3s;
+}
+footer nav a:hover{
+    color: #ad9356;
+}
+.footer p{
+    font-size: 16px;
+}
+footer .footer-icons i{
+    margin-left: 25px;
+    cursor: pointer;
+    transition: .3s;
+}
+footer .footer-icons i:hover{
+    color: #ad9356;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.footer nav{
+    width: 33%;
+}
